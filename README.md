@@ -13,7 +13,7 @@ The following provides additional guidance for setup and use of Twilio SMS servi
 https://www.twilio.com/docs/libraries/python
 
 ## Gmail
-This script uses SMTP_SSL to send email using Gmail.
+This script uses SMTP_SSL to send emails using Gmail.
 
 It is recommended that you create a gmail account soley for sending the required emails. When doing so, you'll have to "Allow Less Secure Apps" in your Gmail settings for the SMTP services to function properly.
 

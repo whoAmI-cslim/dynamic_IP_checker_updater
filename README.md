@@ -40,3 +40,6 @@ Simply edit `/etc/crontab` for system wide execution or use `crontab -e` for ind
 Add this to the bottom of the file:
 `0 */4   * * *   root    cd <path to script directory> && python3 ip_checker.py`
 
+To enable a logfile you can use this instead:
+`0 */4   * * *   root    cd <path to script directory> && python3 ip_checker.py >> ip_checker_log.txt`
+
